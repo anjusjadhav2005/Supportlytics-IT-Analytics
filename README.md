@@ -50,6 +50,7 @@ The dataset is used to analyze support ticket distribution, issue trends, and pe
 📈 Key Performance Indicators (KPIs)
 
 The following KPIs were used to evaluate IT support performance:
+
 •	Average Ticket Resolution Time
 •	Total Number of Tickets
 •	Tickets by Priority Level
@@ -66,6 +67,7 @@ These KPIs help measure efficiency, workload distribution, and issue trends.
 A Power BI dashboard was developed to visualize and monitor IT support performance.
 Dashboard Components
 The dashboard includes:
+
 •	Ticket Distribution by Category
 •	Tickets by Priority Level
 •	Resolution Time Analysis
@@ -78,6 +80,7 @@ The dashboard enables interactive filtering and visual analysis, helping teams q
 🔍 Key Insights
 
 From the analysis, several important insights were discovered:
+
 •	Certain issue categories occur more frequently than others.
 •	High priority tickets generally require faster resolution.
 •	Some regions generate a higher volume of support tickets.
@@ -89,6 +92,7 @@ These insights help organizations understand workload patterns and improve suppo
 💡 Recommendations
 
 Based on the analysis, the following improvements are recommended:
+
 •	Allocate more resources to high-priority tickets
 •	Automate handling of frequently occurring issues
 •	Improve documentation for common technical problems
