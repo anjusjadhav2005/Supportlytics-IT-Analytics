@@ -1,11 +1,12 @@
 📊 Data-Driven Optimization of IT Support Team Performance Using Advanced Analytics
+
+
 📌 Project Overview
 
 This project analyzes IT support ticket data to identify performance trends, reduce ticket resolution time, and improve overall support service efficiency.
-
 Using data analytics and visualization techniques, the project uncovers patterns in support requests, ticket categories, priorities, and geographic distribution.
-
 The final output is an interactive Power BI dashboard that helps stakeholders monitor support performance and make data-driven decisions.
+
 
 🎯 Problem Statement
 
