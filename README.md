@@ -12,21 +12,17 @@ The final output is an interactive Power BI dashboard that helps stakeholders mo
 
 IT support teams handle large volumes of tickets daily, making it difficult to identify performance issues and optimize workflows.
 The goal of this project is to analyze support ticket data to:
-
 Identify patterns in support requests
 Measure resolution efficiency
 Detect performance gaps
 Provide insights to improve IT support operations
-
 This project focuses on optimizing ticket resolution time, support efficiency, and resource allocation using analytics and dashboards.
 
 
 📂 Dataset Description
 
 The dataset contains customer support ticket records, where each row represents a single support request raised by a customer after purchasing a product.
-
 It includes information about customer details, ticket information, communication channels, response time, resolution time, and customer satisfaction.
-
 Key Fields in the Dataset
 
 | Column Name                  | Description                                           |
@@ -55,42 +51,26 @@ Key Fields in the Dataset
 🔄 Project Workflow
 
 Data Collection
-
 Data Cleaning
-
 Feature Engineering
-
 Exploratory Data Analysis (EDA)
-
 Cluster & Similarity Analysis
-
 Performance Analysis
-
 Dashboard Development
-
 Insights & Recommendations
 
 
 📈 Key Performance Indicators (KPIs)
 
 The following KPIs were used to evaluate IT support performance:
-
 Average Ticket Resolution Time
-
 Total Number of Tickets
-
 Tickets by Priority Level
-
 Tickets by Category
-
 Cluster Similarity Index
-
 Ticket Distribution by Country
-
 Most Frequent Issue Categories
-
 Support Performance by Region
-
 These KPIs help measure efficiency, workload distribution, and issue trends.
 
 
@@ -101,62 +81,41 @@ A Power BI dashboard was developed to visualize and monitor IT support performan
 Dashboard Components
 
 The dashboard includes:
-
 Ticket Distribution by Category
-
 Tickets by Priority Level
-
 Resolution Time Analysis
-
 Cluster Performance Analysis
-
 Geographic Distribution of Tickets
-
 Support Performance Trends
-
 The dashboard enables interactive filtering and visual analysis, helping teams quickly identify performance issues and trends.
 
 
 🔍 Key Insights
 
 From the analysis, several important insights were discovered:
-
 Certain issue categories occur more frequently than others
-
 High-priority tickets require faster resolution
-
 Some regions generate higher support ticket volumes
-
 Clustering analysis helps identify groups of similar issues
-
 Performance differences exist between categories and priorities
-
 These insights help organizations understand workload patterns and improve support efficiency.
 
 
 💡 Recommendations
 
 Based on the analysis, the following improvements are recommended:
-
 Allocate more resources to high-priority tickets
-
 Automate handling of frequently occurring issues
-
 Improve documentation for common technical problems
-
 Monitor regions with high ticket volumes
-
 Implement proactive monitoring to reduce recurring incidents
-
 These improvements can reduce resolution time and improve customer support experience.
 
 
 🛠 Tools Used
 
 Power BI – Data visualization and dashboard creation
-
 Microsoft Excel – Dataset storage and preparation
-
 GitHub – Project documentation and version control
 
 
@@ -181,11 +140,7 @@ IT-Support-Analytics
 The Power BI dashboard provides insights into:
 
 Support ticket trends
-
 Agent performance
-
 Priority distribution
-
 Issue category analysis
-
 Resolution efficiency
