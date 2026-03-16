@@ -11,18 +11,15 @@ The final output is an interactive Power BI dashboard that helps stakeholders mo
 🎯 Problem Statement
 
 IT support teams handle large volumes of tickets daily, making it difficult to identify performance issues and optimize workflows.
-
 The goal of this project is to analyze support ticket data to:
 
 Identify patterns in support requests
-
 Measure resolution efficiency
-
 Detect performance gaps
-
 Provide insights to improve IT support operations
 
 This project focuses on optimizing ticket resolution time, support efficiency, and resource allocation using analytics and dashboards.
+
 
 📂 Dataset Description
 
@@ -54,6 +51,7 @@ Key Fields in the Dataset
 | Resolution Time              | Total time taken to resolve the issue                 |
 | Customer Satisfaction Rating | Rating given by the customer after resolution         |
 
+
 🔄 Project Workflow
 
 Data Collection
@@ -71,6 +69,7 @@ Performance Analysis
 Dashboard Development
 
 Insights & Recommendations
+
 
 📈 Key Performance Indicators (KPIs)
 
@@ -94,6 +93,7 @@ Support Performance by Region
 
 These KPIs help measure efficiency, workload distribution, and issue trends.
 
+
 📊 Dashboard Description
 
 A Power BI dashboard was developed to visualize and monitor IT support performance.
@@ -116,6 +116,7 @@ Support Performance Trends
 
 The dashboard enables interactive filtering and visual analysis, helping teams quickly identify performance issues and trends.
 
+
 🔍 Key Insights
 
 From the analysis, several important insights were discovered:
@@ -131,6 +132,7 @@ Clustering analysis helps identify groups of similar issues
 Performance differences exist between categories and priorities
 
 These insights help organizations understand workload patterns and improve support efficiency.
+
 
 💡 Recommendations
 
@@ -148,6 +150,7 @@ Implement proactive monitoring to reduce recurring incidents
 
 These improvements can reduce resolution time and improve customer support experience.
 
+
 🛠 Tools Used
 
 Power BI – Data visualization and dashboard creation
@@ -155,6 +158,7 @@ Power BI – Data visualization and dashboard creation
 Microsoft Excel – Dataset storage and preparation
 
 GitHub – Project documentation and version control
+
 
 📁 Project Structure
 IT-Support-Analytics
@@ -170,6 +174,8 @@ IT-Support-Analytics
 ├── Documentation
 │
 └── README.md
+
+
 📊 Dashboard Insights
 
 The Power BI dashboard provides insights into:
