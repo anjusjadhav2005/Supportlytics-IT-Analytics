@@ -52,6 +52,7 @@ It includes information about the customer, ticket details, communication channe
 8.	Insights & Recommendations
 
 📈 Key Performance Indicators (KPIs)
+
 The following KPIs were used to evaluate IT support performance:
 •	Average Ticket Resolution Time
 •	Total Number of Tickets
@@ -64,6 +65,7 @@ The following KPIs were used to evaluate IT support performance:
 These KPIs help measure efficiency, workload distribution, and issue trends.
 
 📊 Dashboard Description
+
 A Power BI dashboard was developed to visualize and monitor IT support performance.
 Dashboard Components
 The dashboard includes:
@@ -76,6 +78,7 @@ The dashboard includes:
 The dashboard enables interactive filtering and visual analysis, helping teams quickly identify performance issues and trends.
 
 🔍 Key Insights
+
 From the analysis, several important insights were discovered:
 •	Certain issue categories occur more frequently than others.
 •	High priority tickets generally require faster resolution.
@@ -83,8 +86,9 @@ From the analysis, several important insights were discovered:
 •	Clustering analysis helps identify groups of similar technical issues.
 •	Performance differences exist between categories and priorities.
 These insights help organizations understand workload patterns and improve support efficiency.
-________________________________________
+
 💡 Recommendations
+
 Based on the analysis, the following improvements are recommended:
 •	Allocate more resources to high-priority tickets
 •	Automate handling of frequently occurring issues
@@ -94,12 +98,14 @@ Based on the analysis, the following improvements are recommended:
 These actions can reduce resolution time and improve customer support experience.
 
 🛠 Tools Used
+
 •	Power BI – Data visualization and dashboard creation
 •	Microsoft Excel – Dataset storage and preparation
 •	GitHub – Project documentation and version control
 
 
 📁 Project Structure
+
 IT-Support-Analytics
 │
 ├── Data
@@ -115,6 +121,7 @@ IT-Support-Analytics
 └── README.md
 
 📊 Dashboard Insights
+
 The Power BI dashboard provides insights into:
 •	Support ticket trends
 •	Agent performance
