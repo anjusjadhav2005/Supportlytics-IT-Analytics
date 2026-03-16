@@ -50,14 +50,14 @@ Key Fields in the Dataset
 
 🔄 Project Workflow
 
-Data Collection
-Data Cleaning
-Feature Engineering
-Exploratory Data Analysis (EDA)
-Cluster & Similarity Analysis
-Performance Analysis
-Dashboard Development
-Insights & Recommendations
+1)Data Collection
+2)Data Cleaning
+3)Feature Engineering
+4)Exploratory Data Analysis (EDA)
+5)Cluster & Similarity Analysis
+6)Performance Analysis
+7)Dashboard Development
+8)Insights & Recommendations
 
 
 📈 Key Performance Indicators (KPIs)
