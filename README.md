@@ -54,6 +54,7 @@ It includes information about the customer, ticket details, communication channe
 📈 Key Performance Indicators (KPIs)
 
 The following KPIs were used to evaluate IT support performance:
+
 •	Average Ticket Resolution Time
 •	Total Number of Tickets
 •	Tickets by Priority Level
