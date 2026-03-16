@@ -17,26 +17,29 @@ The project focuses on optimizing ticket resolution time, support efficiency, an
 📂 Dataset Description
 The dataset contains customer support ticket records, where each row represents a single support request raised by a customer after purchasing a product.
 It includes information about the customer, ticket details, communication channel, response time, resolution time, and customer satisfaction.
-Column Name	Description
-Ticket ID	Unique identifier assigned to each support ticket
-Customer Name	Name of the customer who raised the support ticket
-Customer Email	Email address of the customer
-Customer Age	Age of the customer
-Customer Gender	Gender of the customer
-Product Purchased	Product purchased by the customer
-Date of Purchase	Date when the product was purchased
-Ticket Type	Type of support request (e.g., complaint, query, request)
-Ticket Subject	Short title describing the support issue
-Ticket Description	Detailed description of the issue reported by the customer
-Ticket Status	Current status of the ticket (Open, Closed, Pending, etc.)
-Resolution	Description of how the issue was resolved
-Ticket Priority	Priority level assigned to the ticket (Low, Medium, High, Critical)
-Ticket Channel	Channel used to raise the ticket (Email, Chat, Phone, etc.)
-First Response Date	Date when the support team first responded to the ticket
-First Response Time	Time taken to provide the first response
-Resolution Date	Date when the issue was resolved
-Resolution Time	Total time taken to resolve the issue
-Customer Satisfaction Rating	Rating given by the customer after issue resolution
+
+| Column Name                      | Description                                                         |
+| -------------------------------- | ------------------------------------------------------------------- |
+| **Ticket ID**                    | Unique identifier assigned to each support ticket                   |
+| **Customer Name**                | Name of the customer who raised the support ticket                  |
+| **Customer Email**               | Email address of the customer                                       |
+| **Customer Age**                 | Age of the customer                                                 |
+| **Customer Gender**              | Gender of the customer                                              |
+| **Product Purchased**            | Product purchased by the customer                                   |
+| **Date of Purchase**             | Date when the product was purchased                                 |
+| **Ticket Type**                  | Type of support request (e.g., complaint, query, request)           |
+| **Ticket Subject**               | Short title describing the support issue                            |
+| **Ticket Description**           | Detailed description of the issue reported by the customer          |
+| **Ticket Status**                | Current status of the ticket (Open, Closed, Pending, etc.)          |
+| **Resolution**                   | Description of how the issue was resolved                           |
+| **Ticket Priority**              | Priority level assigned to the ticket (Low, Medium, High, Critical) |
+| **Ticket Channel**               | Channel used to raise the ticket (Email, Chat, Phone, etc.)         |
+| **First Response Date**          | Date when the support team first responded to the ticket            |
+| **First Response Time**          | Time taken to provide the first response                            |
+| **Resolution Date**              | Date when the issue was resolved                                    |
+| **Resolution Time**              | Total time taken to resolve the issue                               |
+| **Customer Satisfaction Rating** | Rating given by the customer after issue resolution                 |
+
 
 🔄 Project Workflow
 1.	Data Collection
