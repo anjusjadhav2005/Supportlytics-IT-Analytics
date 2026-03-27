@@ -1,160 +1,182 @@
 # 📊 Data-Driven Optimization of IT Support Team Performance Using Advanced Analytics
 
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow?style=for-the-badge)
+![Excel](https://img.shields.io/badge/Data-Excel-green?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/Version%20Control-GitHub-black?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+
+---
+
 ## 📌 Project Overview
 
-This project analyzes **IT support ticket data** to identify performance trends, reduce ticket resolution time, and improve overall support service efficiency.
+This project analyzes IT support ticket data using a **star schema data model** to uncover performance trends and optimize service efficiency.
 
-Using **data analytics and visualization techniques**, the project uncovers patterns in:
+Using **Power BI, data modeling, and analytics**, the project identifies:
 
-* Support requests
-* Ticket categories
-* Ticket priorities
-* Geographic distribution
+- Ticket trends and volume  
+- Priority-based workload distribution  
+- Resolution performance  
+- Channel effectiveness  
 
-The final output is an **interactive Power BI dashboard** that helps stakeholders monitor support performance and make **data-driven decisions**.
+The final output is a **single-page interactive Power BI dashboard** designed for **data-driven decision-making**.
 
 ---
 
 ## 🎯 Problem Statement
 
-IT support teams handle **large volumes of tickets daily**, making it difficult to identify performance issues and optimize workflows.
+IT support teams handle high volumes of tickets, making it difficult to:
 
-The goal of this project is to analyze support ticket data to:
+- Track performance efficiently  
+- Identify bottlenecks  
+- Optimize resolution time  
 
-* Identify patterns in support requests
-* Measure resolution efficiency
-* Detect performance gaps
-* Provide insights to improve IT support operations
+This project transforms raw ticket data into **actionable insights** to improve:
 
-This project focuses on **optimizing ticket resolution time, improving support efficiency, and better resource allocation** using analytics and dashboards.
+- Resolution efficiency  
+- Resource allocation  
+- Customer satisfaction  
+
+---
+
+## 🧠 Business Impact
+
+- Improved resolution efficiency  
+- Better workload distribution  
+- Faster decision-making  
+- Enhanced service quality  
 
 ---
 
 ## 📂 Dataset Description
 
-The dataset contains **customer support ticket records**, where each row represents a single support request raised by a customer after purchasing a product.
+The dataset is structured using a **⭐ Star Schema Model**.
 
-It includes information about:
+### 🔹 Fact Table
+- Tickets  
 
-* Customer details
-* Ticket information
-* Communication channels
-* Response time
-* Resolution time
-* Customer satisfaction
+### 🔹 Dimension Tables
+- Customer  
+- Product  
+- Ticket Type  
+- Channel  
+- Priority  
+- Status  
+- Date  
 
-### Key Fields in the Dataset
-
-| Column Name                  | Description                                  |
-| ---------------------------- | -------------------------------------------- |
-| Ticket ID                    | Unique identifier for each support ticket    |
-| Customer Name                | Name of the customer                         |
-| Customer Email               | Email address of the customer                |
-| Customer Age                 | Age of the customer                          |
-| Customer Gender              | Gender of the customer                       |
-| Product Purchased            | Product purchased by the customer            |
-| Date of Purchase             | Date when the product was purchased          |
-| Ticket Type                  | Type of request (Complaint, Query, Request)  |
-| Ticket Subject               | Short title describing the issue             |
-| Ticket Description           | Detailed explanation of the issue            |
-| Ticket Status                | Status of the ticket (Open, Closed, Pending) |
-| Resolution                   | Description of how the issue was resolved    |
-| Ticket Priority              | Priority level assigned to the ticket        |
-| Ticket Channel               | Channel used (Email, Chat, Phone)            |
-| First Response Date          | Date of first response                       |
-| First Response Time          | Time taken to provide the first response     |
-| Resolution Date              | Date when the issue was resolved             |
-| Resolution Time              | Total time taken to resolve the issue        |
-| Customer Satisfaction Rating | Rating given by the customer                 |
+Each ticket is linked using foreign keys, enabling efficient analysis and reporting.
 
 ---
 
-## 🔄 Project Workflow
+## 🔑 Key Fields
 
-1. Data Collection
-2. Data Cleaning
-3. Feature Engineering
-4. Exploratory Data Analysis (EDA)
-5. Cluster & Similarity Analysis
-6. Performance Analysis
-7. Dashboard Development
-8. Insights & Recommendations
+| Category | Fields |
+|----------|--------|
+| Identifiers | Ticket ID, Customer Key, Product Key |
+| Ticket Info | Ticket Type, Priority, Status |
+| Time Metrics | First Response Time, Resolution Time |
+| Channels | Email, Chat, Phone |
+| Feedback | Customer Satisfaction Rating |
+
+---
+
+# 🔄 Project Workflow (End-to-End Analytics Pipeline)
+
+### 1️⃣ Data Collection
+- Gathered raw IT support ticket data from Excel sources  
+
+### 2️⃣ Data Cleaning
+- Removed inconsistencies, handled missing values, standardized formats  
+
+### 3️⃣ Data Modeling
+- Designed a **star schema** with fact and dimension tables  
+- Created relationships for efficient querying  
+
+### 4️⃣ Feature Engineering
+- Derived calculated fields such as resolution metrics and KPI measures  
+
+### 5️⃣ Exploratory Data Analysis (EDA)
+- Identified patterns in ticket volume, categories, and priorities  
+
+### 6️⃣ KPI Development
+- Defined business-relevant metrics (resolution time, ticket distribution, satisfaction)  
+
+### 7️⃣ Dashboard Development
+- Built an interactive **Power BI dashboard (single-page layout)**  
+
+### 8️⃣ Insights & Recommendations
+- Generated actionable insights to improve IT support performance  
 
 ---
 
 ## 📈 Key Performance Indicators (KPIs)
 
-The following KPIs were used to evaluate IT support performance:
-
-* Average Ticket Resolution Time
-* Total Number of Tickets
-* Tickets by Priority Level
-* Tickets by Category
-* Cluster Similarity Index
-* Ticket Distribution by Country
-* Most Frequent Issue Categories
-* Support Performance by Region
-
-These KPIs help measure **efficiency, workload distribution, and issue trends**.
+- Total Tickets  
+- Average Resolution Time  
+- Tickets by Priority  
+- Tickets by Category  
+- Tickets by Status  
+- Resolution Time by Priority  
+- Ticket Trends Over Time  
+- Customer Satisfaction Score  
 
 ---
 
-## 📊 Dashboard Description
+## 🖥️ Dashboard Preview
 
-A **Power BI dashboard** was developed to visualize and monitor IT support performance.
+![Main Dashboard](Screenshots/dashboard_main.png)
 
-### Dashboard Components
+---
 
-The dashboard includes:
+## 📸 Screenshots
 
-* Ticket Distribution by Category
-* Tickets by Priority Level
-* Resolution Time Analysis
-* Cluster Performance Analysis
-* Geographic Distribution of Tickets
-* Support Performance Trends
+![KPI Overview](Screenshots/kpi_overview.png)  
+![Priority Analysis](Screenshots/priority_analysis.png)  
+![Trend Analysis](Screenshots/trend_analysis.png)  
+![Channel Analysis](Screenshots/channel_analysis.png)  
 
-The dashboard allows **interactive filtering and visual analysis**, helping teams quickly identify trends and performance issues.
+---
+
+## 🎛 Dashboard Features
+
+- Interactive slicers (Date, Priority, Channel, Product, Status)  
+- Single-page professional layout  
+- KPI cards for quick insights  
+- Trend and distribution charts  
+- Clean and intuitive design  
 
 ---
 
 ## 🔍 Key Insights
 
-From the analysis, several important insights were discovered:
-
-* Certain issue categories occur more frequently than others
-* High-priority tickets require faster resolution
-* Some regions generate higher support ticket volumes
-* Clustering analysis helps identify groups of similar issues
-* Performance differences exist between categories and priorities
-
-These insights help organizations **understand workload patterns and improve support efficiency**.
+- High-priority tickets significantly impact workload  
+- Certain ticket categories dominate volume  
+- Resolution time varies across priorities  
+- Some channels generate more tickets  
+- Ticket volume fluctuates over time  
 
 ---
 
 ## 💡 Recommendations
 
-Based on the analysis, the following improvements are recommended:
-
-* Allocate more resources to **high-priority tickets**
-* Automate handling of **frequently occurring issues**
-* Improve documentation for **common technical problems**
-* Monitor regions with **high ticket volumes**
-* Implement **proactive monitoring** to reduce recurring incidents
-
-These improvements can **reduce resolution time and improve customer support experience**.
+- Prioritize high and critical tickets  
+- Automate repetitive issues  
+- Improve response time  
+- Use trends for resource planning  
+- Continuously monitor KPIs  
 
 ---
 
 ## 🛠 Tools Used
 
-* **Power BI** – Data visualization and dashboard creation
-* **Microsoft Excel** – Dataset storage and preparation
-* **GitHub** – Project documentation and version control
+| Tool | Purpose |
+|-----|--------|
+| Power BI | Dashboard development |
+| Excel | Data cleaning & preparation |
+| GitHub | Version control |
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure (Organized Repository Layout)
 
 ```
 IT-Support-Analytics
@@ -176,10 +198,19 @@ IT-Support-Analytics
 
 ## 📊 Dashboard Insights
 
-The Power BI dashboard provides insights into:
+- Monitor ticket trends  
+- Analyze workload distribution  
+- Improve resolution performance  
+- Identify operational bottlenecks  
 
-* Support ticket trends
-* Agent performance
-* Priority distribution
-* Issue category analysis
-* Resolution efficiency
+---
+
+## 🚀 Project Highlights
+
+- End-to-end data analytics project  
+- Star schema data modeling  
+- Professional Power BI dashboard  
+- Business-driven insights  
+- Real-world use case  
+
+---
