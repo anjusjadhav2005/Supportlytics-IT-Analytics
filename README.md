@@ -121,28 +121,14 @@ Each ticket is linked using foreign keys, enabling efficient analysis and report
 
 ---
 
-## 🖥️ Dashboard Preview
 
-![Main Dashboard](Screenshots/dashboard_main.png)
+## 📊 Dashboard Insights
 
----
+- Monitor ticket trends  
+- Analyze workload distribution  
+- Improve resolution performance  
+- Identify operational bottlenecks  
 
-## 📸 Screenshots
-
-![KPI Overview](Screenshots/kpi_overview.png)  
-![Priority Analysis](Screenshots/priority_analysis.png)  
-![Trend Analysis](Screenshots/trend_analysis.png)  
-![Channel Analysis](Screenshots/channel_analysis.png)  
-
----
-
-## 🎛 Dashboard Features
-
-- Interactive slicers (Date, Priority, Channel, Product, Status)  
-- Single-page professional layout  
-- KPI cards for quick insights  
-- Trend and distribution charts  
-- Clean and intuitive design  
 
 ---
 
@@ -193,17 +179,6 @@ IT-Support-Analytics
 │
 └── README.md
 ```
-
----
-
-## 📊 Dashboard Insights
-
-- Monitor ticket trends  
-- Analyze workload distribution  
-- Improve resolution performance  
-- Identify operational bottlenecks  
-
----
 
 ## 🚀 Project Highlights
 
